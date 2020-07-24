@@ -90,6 +90,10 @@ I would recommend putting a list like this together for your exact setup. This w
 
 [] - Good workflow [article](https://dev.to/oryanmoshe/i-spend-one-hour-a-week-optimizing-my-development-environment-l9a)
 
+## extensions
+
+- bitwarden
+
 ## system settings
 
 [] - Remove uneeded apps in doc

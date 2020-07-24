@@ -1,11 +1,12 @@
 # New Mac Setup
 
-Now that a lot more of us are working from home, chances are, upgrading to a new computer is liekly in your future. I just took the plunge and purchased a new Macbook Pro (2019) and wanted to document what I did to get it up and running for a web development work station.
+Now that a lot more of folks are working from home, chances are, upgrading to a new computer is liekly in your future. I just took the plunge and purchased a new Macbook Pro (2019) and wanted to document what I did to get it up and running for a modern web development work station.
 
 I would recommend putting a list like this together for your exact setup. This way you're able to get started more quickly next time you need to start fresh.
 
 ## Installs
 
+[x] - Install Brave
 [x] - Install Chrome (sign in)
 [x] - Install Firefox Develeporer Edition
 [x] - Install VSCode

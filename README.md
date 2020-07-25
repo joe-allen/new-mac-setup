@@ -5,55 +5,71 @@ Now that a lot more of folks are working from home, chances are, upgrading to a 
 I would recommend putting a list like this together for your exact setup. This way you're able to get started more quickly next time you need to start fresh.
 
 ## code
-[ ] - Install VSCode
 
-[ ] - Install Hyper (port ~/.hyper config from old comp or [read](https://tjay.dev/howto-my-terminal-shell-setup-hyper-js-zsh-starship/))
+[x] - Install Hyper (port ~/.hyper config from old comp or [read](https://tjay.dev/howto-my-terminal-shell-setup-hyper-js-zsh-starship/))
 
-[ ] - Install ZSH (port ~/.zshrc config from old comp or [read](https://github.com/ohmyzsh/ohmyzsh))
+[x]] - Install Brew
 
-[ ] - Install Brew
+[x] - Install VSCode
 
-[ ] - Install Git
+[x] - Install Git
 
-[ ] - Install Github Desktop
+[x] - Install ZSH (port ~/.zshrc config from old comp or [read](https://github.com/ohmyzsh/ohmyzsh))
 
-[ ] - Install Node
+[x] - Install Node
 
-[ ] - Install Composer
+[x] - Install Composer
+    [x] - this will install **./composer.phar**. Move to local bin using `mv composer.phar /usr/local/bin/composer`
 
-[ ] - Install Laravel Valet
-  [ ] - Install wp-cl
+[x] - Install Laravel Valet
+    [x] - Make sure composer is in path by adding `export PATH="$PATH:$HOME/.composer/vendor/bin"` to **.zshrc** then z source.
+    - After brew installing mysql, run `brew services start mysql@5.7` (or whatever version Valet had you install).
 
-[ ] - Install [wp-cl + valet](https://github.com/aaemnnosttv/wp-cli-valet-command)
+[x] - Install wp-cli
+
+[x] - Install [wp-cli + valet](https://github.com/aaemnnosttv/wp-cli-valet-command)
+  
   - If you get a "WP-CLI ran out of memory" error, update the file _/usr/local/etc/php/7.4/conf.d/php-memory-limits.ini_ to be `memory_limit = 1024M` instead of `memory_limit = 512M`
-  [ ] - If mysql is not in you path, you may get an error like _Error: env: mysql: No such file or directory_. Make sure add `export PATH="$PATH:$HOME/.composer/vendor/bin:/usr/local/Cellar/mysql@5.7/5.7.29/bin/"` to you .zshrc or .bashrc file. I would `cd` into `/usr/local/Cellar/` to make sure you have directories _mysql@5.7_ and _5.7.29_ as you might have different versions. (The above export is also putting **Composer** in your path).
+  
+  [x] - If mysql is not in you path, you may get an error like _Error: env: mysql: No such file or directory_. Make sure add `export PATH="$PATH:$HOME/.composer/vendor/bin:/usr/local/Cellar/mysql@5.7/5.7.29/bin/"` to you .zshrc or .bashrc file. I would `cd` into `/usr/local/Cellar/` to make sure you have directories _mysql@5.7_ and _5.7.29_ as you might have different versions. (The above export is also putting **Composer** in your path).
 
-[ ] - Install MySQL Pro
+[x] - Install Github Desktop
+
+[x] - Install MySQL Pro
 
 [ ] - Install CLI Netlify (`sudo npm install netlify-cli -g`)
 
 [ ] - Install CLI Maizzle
 
 [ ] - Install CLI Ionic
+
   [ ] - Capicitor requieres install for android studio and Xcode Command Line tools / cocoapods for iOS.
 
 [ ] - Install CLI Puppeteer
 
+
 ### wordpress / php
 
-[ ] - `brew install mailhog`
+[x] - `brew install mailhog`
 
 [ ] - install phpcs
+  
   [ ] - `curl -OL https://squizlabs.github.io/PHP_CodeSniffer/phpcs.phar`
+  
   [ ] - `curl -OL https://squizlabs.github.io/PHP_CodeSniffer/phpcbf.phar`
+  
   [ ] - `composer global require --dev 10up/phpcs-composer:dev-master`
+  
   [ ] - Install vscode plugin phpcs by Ioannis Kappas
+  
   [ ] - In _.eslinstrc.json_ extend 10up `{"extends": "@10up/eslint-config"}`
+  
   [ ] - check installed correctly w/ `phpcs -i` (should see something like: `The installed coding standards are PEAR, Zend, PSR2, MySource, Squiz, PSR1, PSR12, 10up-Default, PHPCompatibility, PHPCompatibilityParagonieRandomCompat, PHPCompatibilityParagonieSodiumCompat, PHPCompatibilityWP, WordPress, WordPress-Extra, WordPress-Docs and WordPress-Core`)
+
 
 ### vscode
 
-[ ] - Use sublime text shortcuts
+[x] - Use sublime text shortcuts
 
 [ ] - Use [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)
 
@@ -62,17 +78,18 @@ I would recommend putting a list like this together for your exact setup. This w
 
 [ ] - Install Adobe Creative Cloud
 
-[ ] - install figma
+[ ] - install Figma
+
 
 ## productivity
 
-[ ] - Install Spotify
+[x] - Install Spotify
 
-[ ] - Install Slack
+[x] - Install Slack
 
 [ ] - Install Zoom
 
-[ ] - Install Alfred
+[x] - Install Alfred
 
 [ ] - Install Magnet
 
@@ -80,9 +97,10 @@ I would recommend putting a list like this together for your exact setup. This w
 
 [ ] - Install Vanilla
 
+
 ## misc
 
-[ ] - Install Brave
+[x] - Install Brave
 
 [ ] - Install Chrome (sign in)
 
@@ -90,15 +108,17 @@ I would recommend putting a list like this together for your exact setup. This w
 
 [ ] - Good workflow [article](https://dev.to/oryanmoshe/i-spend-one-hour-a-week-optimizing-my-development-environment-l9a)
 
+
 ## extensions
 
-- bitwarden
+[x] - bitwarden
+
 
 ## system settings
 
-[ ] - Remove uneeded apps in doc
+[x] - Remove uneeded apps in doc
 
-[ ] - Set up hotcorners [tl: desktop, tr: mission control, br: launchpad, bl: sleep]
+[x] - Set up hotcorners [tl: desktop, tr: mission control, br: lockscreen, bl: sleep]
 
 [ ] - Add bluetooth icon to toolbar
 
